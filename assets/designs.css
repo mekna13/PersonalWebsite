@@ -1,0 +1,24 @@
+.aboutmetext{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.displayart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.myinsta{
+    width: 16em;
+    height: 16em;
+   
+}
+.instaitems{
+    flex-grow: 1;
+}
+.myinvite{
+    width: 30em;
+    height: 37em;
+}
