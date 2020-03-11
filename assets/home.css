@@ -11,11 +11,11 @@ html {
   */
 
 body{
-    background-color: #f9e1b8;
+    background-color:#fbf4f9;
     margin: 0em;
 }
 .hero{
-    background: url('back.jpg') center;
+    background: url('background2.jpg') center;
     background-size: cover;
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
@@ -63,7 +63,7 @@ body{
 
 .myphoto{
     width: 30em;
-    height: 30em;
+    height: 37em;
     border-radius: 2em;
 }
 
@@ -84,7 +84,7 @@ body{
 }
 .card{
     padding:5em;
-    background-color: #2d334a;
+    background-color: #f6e5f5;
     border-radius: 1em;
 }
 
@@ -123,7 +123,7 @@ body{
   display:flex;
   flex-direction: row;
   justify-content: start;
-  background-color:#2d334a;
+  background-color:#f6e5f5;
   border-radius: 1em;
 
  }
@@ -159,24 +159,24 @@ body{
     font-size: 3em;
 }
 .fa-github:hover{
-    color: #0c9463;
+    color: #b9cced;
    
 }
 .fa-linkedin:hover{
-    color: #0c9463;
+    color: #b9cced;
  
 }
 .fa-hackerrank:hover{
-    color: #0c9463;
+    color: #b9cced;
 }
 .fa-paper-plane:hover{
-    color: #0c9463;
+    color: #b9cced;
 }
 .fa-instagram:hover{
-    color: #0c9463;
+    color: #b9cced;
 }
 .icons:hover{
-    color:#0c9463;
+    color:#b9cced;
 }
 
 /* ALL THE TEXT STYLES */
@@ -199,16 +199,16 @@ h3{
 h4{
     font-family: 'Open Sans',sans-serif;
     font-size: 2.5em;
-    color:#0c9463;
+    color:#b9cced;
 }
 h5{
-    color:white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    color:#b9cced;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5em;
 }
 
 p:hover, h1:hover, h2:hover {
-	color:#0c9463;
+	color:#b9cced;
 }
 a{
     text-decoration: none;
@@ -216,13 +216,16 @@ a{
 /*the footer part */
 .footerbg{
   
-    background-image: url('footerback.jpg');
+    background-image: url('footer.jpg');
     background-size: cover;
     margin-top: 10em;
-    padding-top:20em;
+    padding-top:25em;
     padding-bottom: 10em;
     padding-left:20em;
     padding-right:20em;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
