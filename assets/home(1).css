@@ -1,0 +1,231 @@
+/*
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  */
+
+body{
+    background-color:#fbf4f9;
+    margin: 0em;
+}
+.hero{
+    background: url('background2.jpg') center;
+    background-size: cover;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    align-items: center;
+    padding-top: 8em;
+    padding-left:10em;
+    padding-right: 10em;
+    padding-bottom: 20em;
+    justify-items: center;
+}
+.heroflex{
+    display: flex;
+    flex-direction: column;
+
+}
+.heroflexitem{
+    flex-grow: 1;
+}
+.aboutme{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    align-items: stretch;
+    grid-gap: 2em;
+    padding-top: 20em;
+    padding-left:10em;
+    padding-right: 10em;
+    padding-bottom: 5em;
+    justify-items: center;
+
+}
+/*
+.myimgbox{
+    border-radius: 1em;
+    background: url("https://data.whicdn.com/images/341105317/original.jpg");
+    background-size: cover ;
+}
+*/
+/* class which creates a flex inside the second column of the grid created in about me*/
+.aboutmetext{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.myphoto{
+    width: 30em;
+    height: 37em;
+    border-radius: 2em;
+}
+
+/*classess for the project bookshelf and artwork pages*/
+
+.wrapper{
+    display:grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    border-radius: 0.25em;
+    margin-left:10em;
+    margin-right: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    
+
+    
+}
+.card{
+    padding:5em;
+    background-color: #f6e5f5;
+    border-radius: 1em;
+}
+
+/*
+.cardflex{
+    display: flex;
+    flex-direction: row; 
+}
+.carditem{
+    flex-grow: 1;
+    justify-content: center;
+}
+*/
+
+.fa-project-diagram{
+    color: white;
+    font-size: 5em;
+}
+.fa-palette{
+    color: white;
+    font-size: 5em;
+   
+}
+
+/* Link bar ------------------------------*/
+
+.linkbar{
+  margin-left:10em;
+  margin-right:10em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  padding-left:10em;
+  padding-right: 5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  display:flex;
+  flex-direction: row;
+  justify-content: start;
+  background-color:#f6e5f5;
+  border-radius: 1em;
+
+ }
+
+ .items{
+     flex-grow: 1;
+
+ }
+ 
+.icons{
+  width:3em;
+  height:3em;
+  color: white;
+}
+.fa-hackerrank{
+    color:white;
+    font-size: 3em;
+}
+.fa-instagram{
+    color: white;
+    font-size: 3em;
+}
+.fa-paper-plane{
+    color: white;
+    font-size: 3em;
+}
+.fa-github{
+    color: white;
+    font-size: 3em;
+}
+.fa-linkedin{
+    color: white;
+    font-size: 3em;
+}
+.fa-github:hover{
+    color: #b9cced;
+   
+}
+.fa-linkedin:hover{
+    color: #b9cced;
+ 
+}
+.fa-hackerrank:hover{
+    color: #b9cced;
+}
+.fa-paper-plane:hover{
+    color: #b9cced;
+}
+.fa-instagram:hover{
+    color: #b9cced;
+}
+.icons:hover{
+    color:#b9cced;
+}
+
+/* ALL THE TEXT STYLES */
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 4em;
+
+}
+h2{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 2em;
+    color:white;
+}
+h3{
+  font-family: 'Lato', sans-serif;
+  color:#2d334a;
+}
+h4{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 2.5em;
+    color:#b9cced;
+}
+h5{
+    color:#b9cced;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.5em;
+}
+
+p:hover, h1:hover, h2:hover {
+	color:#b9cced;
+}
+a{
+    text-decoration: none;
+}
+/*the footer part */
+.footerbg{
+  
+    background-image: url('footer.jpg');
+    background-size: cover;
+    margin-top: 10em;
+    padding-top:25em;
+    padding-bottom: 10em;
+    padding-left:20em;
+    padding-right:20em;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
